@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Competicao List</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/apprest.css">
+<link rel="stylesheet" href="css/datatables.css">
+</head>
+<body>
+	<div class="container">
+		<div id="menu"></div>
+		<p>
+			<button id="new" class="btn btn-success">Novo</button>
+			<button id="delete" class="btn btn-danger">Excluir</button>
+		</p>
+		<table id="resultList" class="datatable table table-striped table-bordered">
+			<thead>
+				<tr>
+					<th width="3px"></th>
+			
+					<th>modalidade</th>
+				
+					<th>local</th>
+				
+					<th>dataInicio</th>
+				
+					<th>dataFim</th>
+				
+					<th>horaInicio</th>
+				
+					<th>horaFim</th>
+				
+					<th>pais1</th>
+				
+					<th>pais2</th>
+				
+					<th>etapa</th>
+				
+				</tr>
+			</thead>
+		</table>
+	</div>
+	<p class="demoiselle">
+		Aplicação de exemplo das Olimpiadas 
+	</p>
+	<script type="text/javascript" src="js/lib/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.dataTables.js"></script>
+	<script type="text/javascript" src="js/lib/datatables.js"></script>
+	<script type="text/javascript" src="js/lib/bootbox.js"></script>
+	<script type="text/javascript" src="js/lib/app.js"></script>
+	<script type="text/javascript" src="js/proxy/metadata.js"></script>
+	<script type="text/javascript" src="js/proxy/auth.js"></script>
+	<script type="text/javascript" src="js/proxy/competicao.js"></script>
+	<script type="text/javascript" src="js/controller/menu.js"></script>
+	<script type="text/javascript" src="js/controller/competicao-list.js"></script>
+</body>
+</html>
